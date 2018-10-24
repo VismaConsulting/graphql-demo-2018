@@ -65,8 +65,8 @@ public class Book {
         this.pageCount = pageCount;
     }
 
-    public Author getAuthor() {
-        return author;
+    public Long getAuthorId() {
+        return author.getId();
     }
 
     public void setAuthor(Author author) {
